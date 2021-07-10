@@ -1,0 +1,35 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+body {
+  font-family: "Raleway";
+  font-weight: bolder;
+  margin: 0px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#home,
+#vehicles,
+#contact,
+#about,
+#login,
+#signup {
+  padding: 16px;
+}
+
+a:hover {
+  color: black;
+  border-bottom: 3px solid;
+  transition: color 0.5s;
+}
+
+a {
+  color: #8a8a8a;
+  text-decoration: none;
+  transition: color 0.5s;
+}
